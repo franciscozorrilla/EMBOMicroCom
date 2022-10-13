@@ -107,9 +107,8 @@ all	CDM35_lcts	yeast	bacteria	M_trp__L_e	1.0	0.01	1	0.01
 ### CDM35 with glucose as main carbon source
 
 ```bash
-smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_glc -o CDM35_glc $ROOT/models/*.xml && paste CDM35_glc_detailed.tsv 
+$ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_glc -o $ROOT/CDM35_glc $ROOT/models/*.xml && paste $ROOT/CDM35_glc_detailed.tsv 
 Loading community: all
-
 Running SCS for community all on medium CDM35_glc...
 Running MUS for community all on medium CDM35_glc...
 Running MPS for community all on medium CDM35_glc...
@@ -136,7 +135,7 @@ all	CDM35_glc	bacteria	yeast	M_uaagmda_e	1.0	0.92	1	0.92
 ### CDM35 with galactose as main carbon source
 
 ```bash
-smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_gal -o CDM35_gal $ROOT/models/*.xml && paste CDM35_gal_detailed.tsv 
+$ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_gal -o $ROOT/CDM35_gal $ROOT/models/*.xml && paste $ROOT/CDM35_gal_detailed.tsv 
 Loading community: all
 Running SCS for community all on medium CDM35_gal...
 Running MUS for community all on medium CDM35_gal...
