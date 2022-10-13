@@ -41,4 +41,17 @@ $ ls $ROOT
 exercises  LICENSE  media.tsv  models  README.md
 ```
 
+## 🥛 Yeast - Lactic Acid Bacteria interactions
+
+Familiarize yourself with the following case study involving *S. cerevisiae* and *L. lactis*:
+
+* [Yeast Creates a Niche for Symbiotic Lactic Acid Bacteria through Nitrogen Overflow](https://www.sciencedirect.com/science/article/pii/S2405471217303903)
+
+In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions.
+
+## 💎 Discussion questions
+
+* Do you expect cross-feeding of metabolites between *S. cerevisiae* and *L. lactis*? If so, what metabolties?
+* How do environmental media conditions influence metabolic interactions? Do you expect more or less interactions in rich vs minimal media?
+
 ## Move on to [exercise 1](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_1.md)
