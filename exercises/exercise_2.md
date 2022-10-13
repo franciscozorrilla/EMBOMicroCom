@@ -117,7 +117,10 @@ all	CDM35_lcts	yeast	bacteria	M_trp__L_e	1.0	0.01	1	0.01
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195675774-546114c7-4ab8-407b-a651-82eab329adf1.png)
-
+<p align = "center">
+Fig.2 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with lactose as carbon source between yeast and bacteria
+</p>
+    
  </details>
 
   
@@ -152,7 +155,10 @@ all	CDM35_glc	bacteria	yeast	M_uaagmda_e	1.0	0.92	1	0.92
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195675906-9efd551a-2b23-4c45-9cc2-6c89d28f2ea4.png)
-
+<p align = "center">
+Fig.3 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with glucose as carbon source between yeast and bacteria
+</p>
+    
  </details>
 
 ### CDM35 with galactose as main carbon source
@@ -187,7 +193,10 @@ all	CDM35_gal	bacteria	yeast	M_uaagmda_e	1.0	0.82	1	0.82
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195675857-e405537f-f64d-4fff-9889-94ff50a47901.png)
-
+<p align = "center">
+Fig.4 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with galactose as carbon source between yeast and bacteria
+</p>
+    
  </details>
 
 
