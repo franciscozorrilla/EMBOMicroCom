@@ -6,10 +6,17 @@ Analogous to the [HTML format](https://en.wikipedia.org/wiki/HTML) used to descr
 
 Read about the [Systems Biology Markup Language](https://sbml.org/) (SBML) standard to familiarize yourself with the GEM format output of CarveMe. 
 
+## 🍺 Yeast model
+
 Use `less` to view and scroll through the contents of the yeast model.
 
 ```bash
 $ less $ROOT/models/yeast.xml
+```
+<details>
+    <summary>Click to see yeast model</summary>
+  
+```bash
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
   <model id="yeast_LB">
@@ -66,13 +73,22 @@ $ less $ROOT/models/yeast.xml
       </species>
 ...
 ```
+      
+ </details>
 
 Press the `q` key to stop viewing the file.
 
+## 🦠 Bacterial model
+    
 Use `less` to view and scroll through the contents of the bacterial model.
 
 ```bash
 $ less $ROOT/models/bacteria.xml
+```
+<details>
+    <summary>Click to see bacterial model</summary>
+    
+```bash
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
   <model id="cremoris_ref2">
@@ -129,6 +145,9 @@ $ less $ROOT/models/bacteria.xml
       </species>
 ...
 ```
+      
+</details>
+
 
 Press the `q` key to stop viewing the file.
 
@@ -142,6 +161,11 @@ Use `paste` to view the contents of the `media.tsv` file
 
 ```bash
 $ paste $ROOT/media.tsv
+```
+<details>
+    <summary>Click to see media file</summary>
+  
+```bash
 medium	description	compound	name
 CDM35_lcts	CDM35_lcts	cl	cl
 CDM35_lcts	CDM35_lcts	thm	thm
@@ -178,6 +202,8 @@ CDM35_lcts	CDM35_lcts	co2	co2
 CDM35_lcts	CDM35_lcts	h	h
 ...
 ```
+</details>
+
 
 Search the [BiGG database](http://bigg.ucsd.edu/) to learn more about specific metabolites name and identifiers.
 
