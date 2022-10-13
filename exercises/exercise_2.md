@@ -4,6 +4,11 @@ Refer to the SMETANA [documentation](https://smetana.readthedocs.io/en/latest/us
 
 ```bash
 $ smetana -h
+```
+<details>
+    <summary>Click to see helpfile</summary>
+  
+```
 
 usage: smetana [-h] [-c COMMUNITIES.TSV] [-o OUTPUT] [--flavor FLAVOR]
                [-m MEDIA] [--mediadb MEDIADB]
@@ -58,7 +63,9 @@ optional arguments:
   --exclude EXCLUDE     List of compounds to exclude from calculations (e.g.: inorganic compounds).
   --no-coupling         Don't compute species coupling scores.
 ```
+ </details>
 
+  
 ## 🤝 Detailed algorithm
 
 Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/content/112/20/6449#sec-7) for details regarding the implementation of MILP probelms that are solved in order to compute the following:
@@ -77,7 +84,12 @@ Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/conten
 ### CDM35 with lactose as main carbon source
 
 ```bash
-smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_lcts -o CDM35_lcts $ROOT/models/*.xml && paste CDM35_lcts_detailed.tsv 
+$ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_lcts -o $ROOT/CDM35_lcts $ROOT/models/*.xml && paste $ROOT/CDM35_lcts_detailed.tsv 
+```
+<details>
+    <summary>Click to see results</summary>
+
+```bash
 Loading community: all
 Running SCS for community all on medium CDM35_lcts...
 Running MUS for community all on medium CDM35_lcts...
@@ -104,10 +116,18 @@ all	CDM35_lcts	yeast	bacteria	M_trp__L_e	1.0	0.01	1	0.01
 
 ![image](https://user-images.githubusercontent.com/35606471/195675774-546114c7-4ab8-407b-a651-82eab329adf1.png)
 
+ </details>
+
+  
 ### CDM35 with glucose as main carbon source
 
 ```bash
 $ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_glc -o $ROOT/CDM35_glc $ROOT/models/*.xml && paste $ROOT/CDM35_glc_detailed.tsv 
+```
+<details>
+    <summary>Click to see results</summary>
+  
+```
 Loading community: all
 Running SCS for community all on medium CDM35_glc...
 Running MUS for community all on medium CDM35_glc...
@@ -131,11 +151,17 @@ all	CDM35_glc	bacteria	yeast	M_uaagmda_e	1.0	0.92	1	0.92
 
 ![image](https://user-images.githubusercontent.com/35606471/195675906-9efd551a-2b23-4c45-9cc2-6c89d28f2ea4.png)
 
+ </details>
 
 ### CDM35 with galactose as main carbon source
 
 ```bash
 $ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_gal -o $ROOT/CDM35_gal $ROOT/models/*.xml && paste $ROOT/CDM35_gal_detailed.tsv 
+```
+<details>
+    <summary>Click to see results</summary>
+
+```
 Loading community: all
 Running SCS for community all on medium CDM35_gal...
 Running MUS for community all on medium CDM35_gal...
@@ -159,6 +185,9 @@ all	CDM35_gal	bacteria	yeast	M_uaagmda_e	1.0	0.82	1	0.82
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195675857-e405537f-f64d-4fff-9889-94ff50a47901.png)
+
+ </details>
+
 
 ## 💎 Discussion questions
 * How does switching carbon source affect the metabolic interactions between yeast and bacteria?
