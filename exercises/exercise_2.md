@@ -72,8 +72,6 @@ Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/conten
    - measures how strongly a receiver species relies on a donor species for a particular metabolite
    - SMETANA<sub>A,B,*m*</sub> = SCS<sub>A,B</sub> * MUS<sub>A,*m*</sub> * MPS<sub>B,*m*</sub>
 
-Note: There may be equivalent solutions that satisfy the linear programming problems posed by the detailed and global algorithms. To explore the solution space run multiple simulations and then take averages. Use the `--molweight` flag to predict interactions on community-specific minimal media. Use the `--zeros` flag in order to accurately calculate averages across samples.
-
 ## 🤔 Your turn
 
 ### CDM35 with lactose as main carbon source
