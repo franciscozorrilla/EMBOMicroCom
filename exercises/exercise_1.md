@@ -10,6 +10,60 @@ Use `less` to view and scroll through the contents of the yeast model.
 
 ```bash
 $ less $ROOT/models/yeast.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="yeast_LB">
+    <listOfCompartments>
+      <compartment id="C_c" name="cytosol" size="1" constant="true"/>
+      <compartment id="C_p" name="periplasm" size="1" constant="true"/>
+      <compartment id="C_e" name="extracellular space" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_10fthf_c" name="10-Formyltetrahydrofolate" compartment="C_c" hasOnlySubstanceUnits="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C20H21N7O7</p>
+            <p>BioCyc: META:10-FORMYL-THF</p>
+            <p>SEED Compound: cpd00201</p>
+            <p>UniPathway Compound: UPC00234</p>
+            <p>KEGG Compound: C00234</p>
+            <p>BioPath Molecule: 10-Formyl-5,6,7,8-tetrahydrofolate</p>
+            <p>MetaNetX (MNX) Chemical: MNXM237</p>
+            <p>Reactome: 419151;5389850</p>
+            <p>Human Metabolome Database: HMDB00972</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_adp_c" name="ADP" compartment="C_c" hasOnlySubstanceUnits="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O10P2</p>
+            <p>BioCyc: META:ADP;META:ADP-GROUP</p>
+            <p>SEED Compound: cpd00008</p>
+            <p>UniPathway Compound: UPC00008</p>
+            <p>KEGG Compound: C00008;G11113</p>
+            <p>BioPath Molecule: Adenosine-5-prime-diphosphate</p>
+            <p>MetaNetX (MNX) Chemical: MNXM7</p>
+            <p>Reactome: 113581;113582;114565;211606;29370;5632457</p>
+            <p>Human Metabolome Database: HMDB01341</p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_atp_c" name="ATP" compartment="C_c" hasOnlySubstanceUnits="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O13P3</p>
+            <p>BioCyc: META:ATP</p>
+            <p>SEED Compound: cpd00002</p>
+            <p>UniPathway Compound: UPC00002</p>
+            <p>KEGG Compound: C00002;D08646</p>
+            <p>BioPath Molecule: Adenosine-5-prime-triphosphate</p>
+            <p>MetaNetX (MNX) Chemical: MNXM3</p>
+            <p>Reactome: 211579;389573</p>
+            <p>Human Metabolome Database: HMDB00538</p>
+          </html>
+        </notes>
+      </species>
 ```
 
 Press the `q` key to stop viewing the file.
