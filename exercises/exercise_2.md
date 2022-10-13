@@ -66,7 +66,7 @@ optional arguments:
  </details>
 
   
-## 🤝 Detailed algorithm
+## 🤝 SMETANA detailed algorithm enumerates all feasible interactions between metabolic networks
 
 Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/content/112/20/6449#sec-7) for details regarding the implementation of MILP probelms that are solved in order to compute the following:
 
