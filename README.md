@@ -3,7 +3,7 @@
 
 ## 💰 Learning Outcomes
 
-* Predict metabolic interactions within bacterial community
+* Predict metabolic interactions within microbial community
 * Compare predicted metabolite exchanges with experimentally verified interactions
 * Explore the effect of media composition on interaction landscape
 * Generate genome-scale metabolic models (GEMs) from genomes
