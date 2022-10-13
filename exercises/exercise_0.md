@@ -49,7 +49,7 @@ Familiarize yourself with the following case study involving *S. cerevisiae* and
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35606471/195670251-b73df0b0-8694-49a2-a181-991fd6114016.png" /></p>
 <p align = "center">
-Fig.1 - Graphical abstract from Pomonarova et al. Yeast Creates a Niche for Symbiotic Lactic Acid Bacteria through Nitrogen Overflow
+Fig.1 - Graphical abstract
 </p>
 
 
