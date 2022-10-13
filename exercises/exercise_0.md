@@ -50,7 +50,7 @@ Familiarize yourself with the following case study involving *S. cerevisiae* and
 <p align="center"><img src="https://user-images.githubusercontent.com/35606471/195670251-b73df0b0-8694-49a2-a181-991fd6114016.png" /></p>
 
 
-In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions.
+In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions. In particular, we will focus on the interactions between *L. lactis* and *S. cerevisiae*
 
 ## 💎 Discussion questions
 
