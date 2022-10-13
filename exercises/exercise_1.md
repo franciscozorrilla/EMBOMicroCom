@@ -34,7 +34,7 @@ $ paste $ROOT/media.tsv
 
 Search the [BiGG database](http://bigg.ucsd.edu/) to learn more about specific metabolites name and identifiers.
 
-If you are feeling adventurous, come up with your own media composition/variation for simulation in the next exercise! 
+If you are feeling adventurous, come up with your own media composition/variation for simulation to be used in the following exercise! 
 
 ## 💎 Discussion questions
 
