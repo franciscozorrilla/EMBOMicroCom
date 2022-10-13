@@ -1,4 +1,4 @@
-# 🔎 Inspect metabolic models and media file
+# 🔎 Inspect metabolic models
 
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files.
 
@@ -22,6 +22,10 @@ $ less $ROOT/models/bacteria.xml
 
 Press the `q` key to stop viewing the file.
 
+While this can be informative for some quick inspection, we may also visualize these metabolic models using web-based tools such as [fluxer](https://fluxer.umbc.edu/). Upload the bacteria and/or yeast model and have a look around!
+
+## 🥫 Inspect media composition
+
 Use `paste` to view the contents of the `media.tsv` file
 
 ```bash
@@ -29,6 +33,8 @@ $ paste $ROOT/media.tsv
 ```
 
 Search the [BiGG database](http://bigg.ucsd.edu/) to learn more about specific metabolites name and identifiers.
+
+If you are feeling adventurous, come up with your own media composition/variation for simulation in the next exercise! 
 
 ## 💎 Discussion questions
 
