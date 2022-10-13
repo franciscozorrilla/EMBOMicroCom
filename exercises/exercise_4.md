@@ -1,3 +1,5 @@
+# 4. Generate metabolic models and predict interactions using your own genomes
+
 ## ⚙️ Translating MAGs: from DNA to protein sequences
 
 If your genomes are in the form of DNA fasta files, run prodigal to translate to protein and annotate open reading frames (ORFs).
