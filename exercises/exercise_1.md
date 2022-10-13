@@ -1,4 +1,4 @@
-# 🔎 Inspect the metabolic models
+# 🔎 1. Inspect the metabolic models
 
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files.
 
