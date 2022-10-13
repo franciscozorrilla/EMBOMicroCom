@@ -81,6 +81,8 @@ Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/conten
 
 ## 🤔 Your turn
 
+Run each simulation on your own machine as shown in the following code chunks. Click on the arrows to see pre-computed results and check if they match your own output.
+
 ### CDM35 with lactose as main carbon source
 
 ```bash
