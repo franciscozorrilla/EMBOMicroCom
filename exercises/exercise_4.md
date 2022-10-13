@@ -1,4 +1,4 @@
-# 4. Generate metabolic models and predict interactions using your own genomes
+# 🧪 4. Generate metabolic models and predict interactions using your own genomes
 
 ## ⚙️ Translating MAGs: from DNA to protein sequences
 
