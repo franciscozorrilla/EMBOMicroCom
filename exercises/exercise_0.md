@@ -48,6 +48,9 @@ Familiarize yourself with the following case study involving *S. cerevisiae* and
 * [Yeast Creates a Niche for Symbiotic Lactic Acid Bacteria through Nitrogen Overflow](https://www.sciencedirect.com/science/article/pii/S2405471217303903)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35606471/195670251-b73df0b0-8694-49a2-a181-991fd6114016.png" /></p>
+<p align = "center">
+Fig.1 - Graphical abstract from Pomonarova et al. Yeast Creates a Niche for Symbiotic Lactic Acid Bacteria through Nitrogen Overflow
+</p>
 
 
 In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions. In particular, we will focus on the interactions between *L. lactis* and *S. cerevisiae*
