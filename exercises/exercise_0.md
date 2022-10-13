@@ -51,7 +51,7 @@ In the following exercises, we will use a simple two-species system described in
 
 ## 💎 Discussion questions
 
-* Do you expect cross-feeding of metabolites between *S. cerevisiae* and *L. lactis*? If so, what metabolties?
+* Do you expect cross-feeding of metabolites between *S. cerevisiae* and *L. lactis*? If so, what metabolites?
 * How do environmental media conditions influence metabolic interactions? Do you expect more or less interactions in rich vs minimal media?
 
 ## Move on to [exercise 1](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_1.md)
