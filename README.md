@@ -23,6 +23,7 @@
 
 ## 🎯 Exercises
 
+0. [Start by cloning this repo](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_0.md)
 1. [Inspect metabolic models and media file](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_1.md)
 2. [Simulate community interactions between bacteria and yeast](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_2.md)
 3. [Explore effect of interactions as a function of media composition](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
