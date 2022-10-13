@@ -12,7 +12,7 @@ Receiving objects: 100% (38/38), 219.94 KiB | 670.00 KiB/s, done.
 Resolving deltas: 100% (11/11), done.
 ```
 
-## 💲 Running code
+## 💲 Running the code
 
 In the following `.md` files, the dollar sign symbol within code chunks denotes lines of code that you should run in your terminal window, e.g.
 ```bash
@@ -46,6 +46,9 @@ exercises  LICENSE  media.tsv  models  README.md
 Familiarize yourself with the following case study involving *S. cerevisiae* and *L. lactis*:
 
 * [Yeast Creates a Niche for Symbiotic Lactic Acid Bacteria through Nitrogen Overflow](https://www.sciencedirect.com/science/article/pii/S2405471217303903)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/35606471/195670251-b73df0b0-8694-49a2-a181-991fd6114016.png" /></p>
+
 
 In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions.
 
