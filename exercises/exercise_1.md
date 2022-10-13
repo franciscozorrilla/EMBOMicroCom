@@ -132,6 +132,8 @@ $ less $ROOT/models/bacteria.xml
 
 Press the `q` key to stop viewing the file.
 
+## 🗺️ Explore the models visually
+
 While this can be informative for some quick inspection, we may also visualize these metabolic models using web-based tools such as [fluxer](https://fluxer.umbc.edu/). Upload the bacteria and/or yeast model and have a look around!
 
 ## 🥫 Inspect the media composition
