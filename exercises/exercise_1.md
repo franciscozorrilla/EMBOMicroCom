@@ -1,4 +1,4 @@
-# 🔎 Inspect metabolic models
+# 🔎 Inspect the metabolic models
 
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files.
 
@@ -24,7 +24,7 @@ Press the `q` key to stop viewing the file.
 
 While this can be informative for some quick inspection, we may also visualize these metabolic models using web-based tools such as [fluxer](https://fluxer.umbc.edu/). Upload the bacteria and/or yeast model and have a look around!
 
-## 🥫 Inspect media composition
+## 🥫 Inspect the media composition
 
 Use `paste` to view the contents of the `media.tsv` file
 
