@@ -28,3 +28,24 @@
 2. [Simulate community interactions between bacteria and yeast](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_2.md)
 3. [Explore effect of interactions as a function of media composition](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
 4. [ (Bonus) Generate metabolic models and predict interactions using your own genomes](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
+
+
+## 🏄 Metabolic Modeling Repos
+
+### Resources
+
+ - [SymbNET: From Metagenomics to Metabolic Interactions ](https://github.com/franciscozorrilla/SymbNET)
+ - [metaGEM_paper](https://github.com/franciscozorrilla/metaGEM_paper): metaGEM paper results
+ - [metaGEM_unseenbio](https://github.com/franciscozorrilla/unseenbio_metaGEM): metaGEM analysis of unseen bio at-home-test WGS sequencing data
+ - [Cooccurrence paper](https://github.com/cdanielmachado/cooccurrence): Supplement repo to cooccurrence paper
+ - [CarveMe paper](https://github.com/cdanielmachado/carveme_paper): Supplement repo to CarveMe paper
+ - [Kefir paper](https://github.com/cdanielmachado/kefir_paper): Supplement repo to kefir paper
+ - [EMBL GEMs](https://github.com/cdanielmachado/embl_gems): Collection of RefSeq-based GEMs
+https://github.com/franciscozorrilla/SymbNET
+
+### Tools
+
+ - [metaGEM](https://github.com/franciscozorrilla/metaGEM): Reconstruction and simulation of genome scale metabolic models directly from metagenomes
+ - [DesignMC](https://github.com/cdanielmachado/designmc): Design microbial communities for production of specific target compounds using GEMs 
+ - [HiOrCo](https://github.com/cdanielmachado/HiOrCo): Compute higher order cooccurence using abundance across samples
+ - [Reframed](https://github.com/cdanielmachado/reframed): Metabolic modeling package
