@@ -3,6 +3,11 @@
 Use the `git` command to download repo
 ```bash
 $ git clone https://github.com/franciscozorrilla/EMBOMicroCom.git
+```
+<details>
+    <summary>Click to see expected output</summary>
+
+```bash
 Cloning into 'EMBOMicroCom'...
 remote: Enumerating objects: 38, done.
 remote: Counting objects: 100% (38/38), done.
@@ -12,13 +17,23 @@ Receiving objects: 100% (38/38), 219.94 KiB | 670.00 KiB/s, done.
 Resolving deltas: 100% (11/11), done.
 ```
 
+  </details>
+
+
 ## 💲 Running the code
 
 In the following `.md` files, the dollar sign symbol within code chunks denotes lines of code that you should run in your terminal window, e.g.
 ```bash
 $ echo "down here you can see the expected output of your commands"
+```
+<details>
+    <summary>Click to see expected output</summary>
+
+```bash
 down here you can see the expected output of your commands
 ```
+ </details>
+
 
 Move into repo folder using `cd`
 ```bash
@@ -38,8 +53,16 @@ $ cd $ROOT
 List contents of cloned repo using `ls`
 ```bash
 $ ls $ROOT
+```
+<details>
+    <summary>Click to see expected output</summary>
+
+```bash
 exercises  LICENSE  media.tsv  models  README.md
 ```
+ </details>
+
+  
 
 ## 🥛 Yeast - Lactic Acid Bacteria interactions
 
