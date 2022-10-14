@@ -128,8 +128,9 @@ You may also download precomputed CarveMe models in [this repository](https://gi
 
 ```bash
 $ mkdir -p embl_gems && cd embl_gems
-$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz
-$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz 
+$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/escherichia/Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true && mv Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true Escherichia_coli_str_K_12_substr_MG1655.xml.gz
+$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz?raw=true && mv Eubacterium_rectale_ATCC_33656.xml.gz?raw=true Eubacterium_rectale_ATCC_33656.xml.gz
+$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz?raw=true && mv Bacteroides_caccae_ATCC_43185.xml.gz?raw=true Bacteroides_caccae_ATCC_43185.xml.gz
 $ gunzip *
 ```
 
@@ -138,5 +139,5 @@ $ gunzip *
 Use SMETANA to predict interactions. To avoid specifying a media, we use the `--molweight` flag that first determines a minimal media that can support cross-feeding interactions, and then enumerates them.
 
 ```bash
-$ smetana -v -d --molweight -o embl_gems embl_gems/*.xml
+$ smetana -v -d --molweight -o embl_gems *.xml
 ```
