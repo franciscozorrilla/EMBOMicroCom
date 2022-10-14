@@ -1,6 +1,6 @@
 # 🏁 0. Start by cloning this repo
 
-Use the `git` command to download repo. 
+Use the `git` command to download repo contents to your virtual machine. 
 
 ```bash
 $ git clone https://github.com/franciscozorrilla/EMBOMicroCom.git
