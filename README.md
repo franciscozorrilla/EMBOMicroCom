@@ -17,8 +17,8 @@
 
 ## ⛏ Materials
 
-* `bacteria.xml`: Manually refined *Lactococcus lactis* genome scale metabolic model
-* `yeast.xml`: Manually refined *Saccharomyces cerevisiae* genome scale metabolic model
+* `models/bacteria.xml`: Manually refined *Lactococcus lactis* genome scale metabolic model
+* `models/yeast.xml`: Manually refined *Saccharomyces cerevisiae* genome scale metabolic model
 * `media.tsv`: Media composition file used for simulation under differing environments
 
 ## 🎯 Exercises
