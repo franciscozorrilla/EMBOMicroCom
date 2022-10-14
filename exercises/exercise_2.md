@@ -203,5 +203,6 @@ Fig.4 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with 
 ## 💎 Discussion questions
 * How does switching carbon source affect the metabolic interactions between yeast and bacteria?
 * To what extent do these predicted interactions reflect those experimentally verified in the case study publication?
+* Come up with some variation of CDM35 media by adding or removing some metabolite, then enumerate interactions with SMETANA in that media, how do the interactions look? Was there something unexpected?
 
 ## Move on to [exercise 3](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
