@@ -3,10 +3,9 @@
 
 ## 💰 Learning Outcomes
 
-* Predict metabolic interactions within microbial community
-* Compare predicted metabolite exchanges with experimentally verified interactions
-* Explore the effect of media composition on interaction landscape
-* Generate genome-scale metabolic models (GEMs) from genomes
+* Predict metabolic interactions within microbial communities
+* Explore the effect of media composition on the predicted metabolite exchanges
+* Interpret predicted metabolic interactions and compare against experimentally verified exchanges
 
 ## 📚Suggested Reading
 
@@ -28,4 +27,4 @@
 1. [Inspect metabolic models and media file](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_1.md)
 2. [Simulate community interactions between bacteria and yeast](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_2.md)
 3. [Explore effect of interactions as a function of media composition](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
-4. [Generate metabolic models and predict interactions using your own genomes](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
+4. [ (Optional) Generate metabolic models and predict interactions using your own genomes](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
