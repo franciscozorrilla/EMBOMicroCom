@@ -11,7 +11,7 @@ First, let's see what would happen in a low amino acid environment. We have alre
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_lcts -o $ROOT/CDM35_low_AA_lcts $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_lcts_detailed.tsv
 ```
 <details>
-    <summary>Click to see output</summary>
+    <summary>Click to see results</summary>
   
 ```bash
 Loading community: all
@@ -60,7 +60,7 @@ Now let's see what would happen in a low amino acid environment (only valine) wi
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_glc -o $ROOT/CDM35_low_AA_glc $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_glc_detailed.tsv
 ```
 <details>
-    <summary>Click to see output</summary>
+    <summary>Click to see results</summary>
   
 ```bash
 Loading community: all
@@ -113,7 +113,7 @@ Now let's see what would happen in a low amino acid environment (only valine) wi
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_gal -o $ROOT/CDM35_low_AA_gal $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_gal_detailed.tsv
 ```
 <details>
-    <summary>Click to see output</summary>
+    <summary>Click to see results</summary>
   
 ```bash
 Loading community: all
