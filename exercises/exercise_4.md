@@ -2,7 +2,9 @@
 
 By now you will know how to use CarveMe for reconstructing draft genome scale metabolic models, and SMETANA for predicting metabolite exchanges within microbial communities. 
 
-To test yourself, grab some genomes from your chosen study system of interest (e.g. gut microbiome, bioreactor, biofilm, etc.) and reconstruct metabolic models with CarveMe. Then use those metabolic models with SMETANA to predict interactions.
+To test what you have learned, grab some genomes from your chosen study system of interest (e.g. gut microbiome, bioreactor, biofilm, etc.) and reconstruct metabolic models with CarveMe. Then use those metabolic models with SMETANA to predict interactions.
+
+In the following code chunks we will start from an NCBI genome, and also pull some pre-computed GEMs from GitHub to create a mock community, you may follow along to recreate the example or use your own genomes/GEMs.
 
 ## ⚙️ Translating genomes: from DNA to protein sequences
 
@@ -132,6 +134,8 @@ $ gunzip embl_gems/*
 ```
 
 ## ⚙️ Predicting interactions: from GEMs to metabolite exchanges
+
+Use SMETANA to predict interactions. To avoid specifying a media, we use the `--molweight` flag that first determines a minimal media that can support cross-feeding interactions, and then enumerates them.
 
 ```bash
 $ smetana -v -d --molweight -o embl_gems embl_gems/*.xml
