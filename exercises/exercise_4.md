@@ -130,7 +130,7 @@ You may also download precomputed CarveMe models in [this repository](https://gi
 $ mkdir -p embl_gems && cd embl_gems
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz 
-$ gunzip embl_gems/*
+$ gunzip *
 ```
 
 ## ⚙️ Predicting interactions: from GEMs to metabolite exchanges
