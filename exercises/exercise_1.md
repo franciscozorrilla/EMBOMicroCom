@@ -1,14 +1,14 @@
 # 🔎 1. Inspect the metabolic models
 
-In case you are not already familiar with genome-scale metabolic models, also refered to as GEMs, have a look through the following article:
+In case you are not already familiar with genome-scale metabolic models (GEMs) and flux balance analysis (FBA), have a look through the following article:
 
 * [Intro to FBA](https://www.nature.com/articles/nbt.1614): What is flux balance analysis?
 
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files.
 
-Analogous to the [HTML format](https://en.wikipedia.org/wiki/HTML) used to describe websites, the SBML format can be used to describe the metabolism of organisms.
+* Analogous to the [HTML format](https://en.wikipedia.org/wiki/HTML) used to describe websites, the SBML format can be used to describe the metabolism of organisms.
 
-Read about the [Systems Biology Markup Language](https://sbml.org/) (SBML) standard to familiarize yourself with the GEM format output of CarveMe. 
+* Read about the [Systems Biology Markup Language](https://sbml.org/) (SBML) standard to familiarize yourself with the GEM format output of CarveMe. 
 
 ## 🍺 Yeast model
 
