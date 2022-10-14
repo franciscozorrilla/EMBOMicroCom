@@ -19,7 +19,7 @@
 * `models/bacteria.xml`: Manually refined *Lactococcus lactis* genome scale metabolic model
 * `models/yeast.xml`: Manually refined *Saccharomyces cerevisiae* genome scale metabolic model
 * `media.tsv`: Media composition file used for simulation under differing environments
-* `bigg_classes.tsv`: Metabolite dictionary
+* `bigg_classes.tsv`: BiGG metabolite ID dictionary and metadata
 
 ## 🎯 Exercises
 
