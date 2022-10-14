@@ -50,6 +50,9 @@ all	CDM35_low_AA_lcts	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195836323-74dbbc1e-be2d-48d7-b33d-c17f69e79b31.png)
+<p align = "center">
+Fig.5 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with low amino acids and lactose as carbon source between yeast and bacteria
+</p>
     
  </details>
 
@@ -105,6 +108,10 @@ all	CDM35_low_AA_glc	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195836394-8a81221d-1788-4964-8d03-65e94110b285.png)
+<p align = "center">
+Fig.6 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with low amino acids and glucose as carbon source between yeast and bacteria
+</p>
+        
     
  </details>
 
@@ -164,7 +171,13 @@ all	CDM35_low_AA_gal	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
 
 ![image](https://user-images.githubusercontent.com/35606471/195836464-f97066c7-2833-43f9-aac7-02dbfd6d7131.png)
-  
+<p align = "center">
+Fig.7- Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with low amino acids and galactose as carbon source between yeast and bacteria
+</p>
+
+    
+      
+    
  </details>
 
 
