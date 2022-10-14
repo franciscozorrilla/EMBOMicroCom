@@ -215,7 +215,7 @@ If you are feeling adventurous, come up with your own media composition/variatio
 
 ## 💎 Discussion questions
 
-* What are GEMs and how can they be used?
+* What are GEMs and how can they be used? What is FBA?
 * How many reactions and metabolites are present in the yeast model? What about the bacterial model?
 * How were these models reconstructed? To what extent is there metabolic compartmentalization?
 * What classes of metabolites are present in the media compositions? What is different across the media variations?
