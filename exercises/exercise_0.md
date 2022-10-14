@@ -1,9 +1,12 @@
 # 🏁 0. Start by cloning this repo
 
-Use the `git` command to download repo
+Use the `git` command to download repo. 
+
 ```bash
 $ git clone https://github.com/franciscozorrilla/EMBOMicroCom.git
 ```
+Copy the code above after the `$` into your terminal window.
+
 <details>
     <summary>Click to see expected output</summary>
 
