@@ -295,6 +295,7 @@ Fig.7- Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with l
 
  </details>
 
+## 🎳 Plotting the data
 
 The plots were generated in R using the following code:
 
