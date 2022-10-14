@@ -307,7 +307,7 @@ library(ggalluvial)
 
 # load data
 read.delim("CDM35_lcts_detailed.tsv") -> yeastlactis_smetana # SMETANA results
-read.delim("~/Documents/lichen/bigg_classes.tsv") -> bigg_mets # BiGG metabolite ids information
+read.delim("bigg_classes.tsv") -> bigg_mets # BiGG metabolite ids information
 
 # plot
 ggplot(yeastlactis_smetana %>% 
