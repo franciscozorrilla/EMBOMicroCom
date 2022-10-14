@@ -2,7 +2,7 @@
 
 In case you are not already familiar with genome-scale metabolic models (GEMs) and flux balance analysis (FBA), have a look through the following article:
 
-* [Intro to FBA](https://www.nature.com/articles/nbt.1614): What is flux balance analysis?
+* [Intro to FBA: What is flux balance analysis?](https://www.nature.com/articles/nbt.1614)
 
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files. Analogous to the [HTML format](https://en.wikipedia.org/wiki/HTML) used to describe websites, the SBML format can be used to describe the metabolism of organisms.
 
