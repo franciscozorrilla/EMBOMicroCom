@@ -2,7 +2,7 @@
 
 We have already simulated the effect of switching carbon sources on the metabolic interactions. In this exercise we will further explore modifications to the media by tweaking components such as amino acids, vitamins, and ions.
 
-## 🍣 Low amino acid environment with lactose as carbon source
+## 🥦 Low amino acid environment with lactose as carbon source
 
 First, let's see what would happen in a low amino acid environment. We have already created a modified CDM35 with lactose as a carbon source and without all amino acids except for Valine. Note that ornithine and nh4 are also present as nitrogen sources.
 
@@ -10,7 +10,9 @@ First, let's see what would happen in a low amino acid environment. We have alre
 ```bash
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_lcts -o $ROOT/CDM35_low_AA_lcts $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_lcts_detailed.tsv
 ```
-
+<details>
+    <summary>Click to see output</summary>
+  
 ```bash
 Loading community: all
 Running SCS for community all on medium CDM35_low_AA_lcts...
@@ -47,14 +49,19 @@ all	CDM35_low_AA_lcts	yeast	bacteria	M_trp__L_e	1.0	0.03	1	0.03
 all	CDM35_low_AA_lcts	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
 
-## 🍣 Low amino acid environment with glucose as carbon source
+ </details>
+
+  
+## 🍅 Low amino acid environment with glucose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with glucose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
 ```bash
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_glc -o $ROOT/CDM35_low_AA_glc $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_glc_detailed.tsv
 ```
-
+<details>
+    <summary>Click to see output</summary>
+  
 ```bash
 Loading community: all
 Running SCS for community all on medium CDM35_low_AA_glc...
@@ -95,14 +102,19 @@ all	CDM35_low_AA_glc	yeast	bacteria	M_trp__L_e	1.0	0.01	1	0.01
 all	CDM35_low_AA_glc	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
 
-## 🍣 Low amino acid environment with galactose as carbon source
+ </details>
+
+  
+## 🍆 Low amino acid environment with galactose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with galactose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
 ```bash
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_gal -o $ROOT/CDM35_low_AA_gal $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_gal_detailed.tsv
 ```
-
+<details>
+    <summary>Click to see output</summary>
+  
 ```bash
 Loading community: all
 Running SCS for community all on medium CDM35_low_AA_gal...
@@ -146,6 +158,10 @@ all	CDM35_low_AA_gal	yeast	bacteria	M_ser__L_e	1.0	0.01	1	0.01
 all	CDM35_low_AA_gal	yeast	bacteria	M_trp__L_e	1.0	0.03	1	0.03
 all	CDM35_low_AA_gal	yeast	bacteria	M_tyr__L_e	1.0	1.0	1	1.0
 ```
+  
+  
+ </details>
+
 
 ## 💎 Discussion questions
 
