@@ -125,14 +125,14 @@ $ carve -v -o erectale.xml proteins.faa
 You may also download precomputed CarveMe models in [this repository](https://github.com/cdanielmachado/embl_gems), e.g.
 
 ```bash
-mkdir -p embl_gems && cd embl_gems
-wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz
-wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz 
-gunzip embl_gems/*
+$ mkdir -p embl_gems && cd embl_gems
+$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz
+$ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz 
+$ gunzip embl_gems/*
 ```
 
 ## ⚙️ Predicting interactions: from GEMs to metabolite exchanges
 
 ```bash
-smetana -v -d --molweight -o embl_gems embl_gems/*.xml
+$ smetana -v -d --molweight -o embl_gems embl_gems/*.xml
 ```
