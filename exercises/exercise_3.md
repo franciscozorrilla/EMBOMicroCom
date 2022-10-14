@@ -183,4 +183,10 @@ Fig.7- Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with l
 
 ## 💎 Discussion questions
 
+
+* How does switching carbon source affect the metabolic interactions between yeast and bacteria in this new low amino acid media?
+* Modify the media composition you created in the last exercise by replacing glucose/lactose/galactose with a new carbon source, e.g. trehalose, maltose, etc. Now remove all amino acids except valine and simulate interactions with SMETANA. How do the interactions compare in this new scenario?
+* Come up with a further variation of CDM35 media by  Then enumerate interactions with SMETANA in that media and compare the interactions to the simulations above. How do the interactions look? Was there something unexpected?
+
+
 ## Move on to [exercise 4](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
