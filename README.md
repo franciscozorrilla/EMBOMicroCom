@@ -34,14 +34,13 @@
 
 ### Resources
 
- - [SymbNET: From Metagenomics to Metabolic Interactions ](https://github.com/franciscozorrilla/SymbNET)
+ - [SymbNET](https://github.com/franciscozorrilla/SymbNET): From Metagenomics to Metabolic Interactions tutorial
  - [metaGEM_paper](https://github.com/franciscozorrilla/metaGEM_paper): metaGEM paper results
  - [metaGEM_unseenbio](https://github.com/franciscozorrilla/unseenbio_metaGEM): metaGEM analysis of unseen bio at-home-test WGS sequencing data
  - [Cooccurrence paper](https://github.com/cdanielmachado/cooccurrence): Supplement repo to cooccurrence paper
  - [CarveMe paper](https://github.com/cdanielmachado/carveme_paper): Supplement repo to CarveMe paper
  - [Kefir paper](https://github.com/cdanielmachado/kefir_paper): Supplement repo to kefir paper
  - [EMBL GEMs](https://github.com/cdanielmachado/embl_gems): Collection of RefSeq-based GEMs
-https://github.com/franciscozorrilla/SymbNET
 
 ### Tools
 
