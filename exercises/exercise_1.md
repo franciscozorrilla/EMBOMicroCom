@@ -1,5 +1,9 @@
 # 🔎 1. Inspect the metabolic models
 
+In case you are not already familiar with genome-scale metabolic models, also refered to as GEMs, have a look through the following article:
+
+* [Intro to FBA](https://www.nature.com/articles/nbt.1614): What is flux balance analysis?
+
 While genome-scale metabolic models may appear complicated and mysterious at first, they exist in our computers as modest text files.
 
 Analogous to the [HTML format](https://en.wikipedia.org/wiki/HTML) used to describe websites, the SBML format can be used to describe the metabolism of organisms.
@@ -211,6 +215,7 @@ If you are feeling adventurous, come up with your own media composition/variatio
 
 ## 💎 Discussion questions
 
+* What are GEMs and how can they be used?
 * How many reactions and metabolites are present in the yeast model? What about the bacterial model?
 * How were these models reconstructed? To what extent is there metabolic compartmentalization?
 * What classes of metabolites are present in the media compositions? What is different across the media variations?
