@@ -67,7 +67,7 @@ exercises  LICENSE  media.tsv  models  README.md
 
   
 
-## 🥛 Yeast - Lactic Acid Bacteria interactions
+# 🥛 Yeast - Lactic Acid Bacteria interactions
 
 Familiarize yourself with the following case study involving *S. cerevisiae* and *L. lactis*:
 
