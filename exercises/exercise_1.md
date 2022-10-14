@@ -8,7 +8,7 @@ While genome-scale metabolic models may appear complicated and mysterious at fir
 
 * Read about the [Systems Biology Markup Language](https://sbml.org/) (SBML) standard to familiarize yourself with the GEM format output of CarveMe. 
 
-The models we are using have been borrowed from the materials of a manuscript-in-preparation(https://github.com/ChMaga/13C-proteomics). Both models were reconstructed using CarveMe and manually curated to study the *S. cerevisiae* <-> *L. lactis* metabolic interactions.
+The models we are using have been borrowed from the [materials of a manuscript-in-preparation](https://github.com/ChMaga/13C-proteomics). Both models were reconstructed using CarveMe and manually curated to study the *S. cerevisiae* <-> *L. lactis* metabolic interactions.
 
 ## 🍺 Yeast model
 
