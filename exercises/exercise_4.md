@@ -186,3 +186,6 @@ $ smetana -v -g --debug --molweight *.xml && paste debug.tsv
 ```
 
 Alternatively, try simulating you community on some other [existing media composition](https://github.com/franciscozorrilla/metaGEM/blob/master/scripts/media_db.tsv).
+
+
+## 💎 All done!
