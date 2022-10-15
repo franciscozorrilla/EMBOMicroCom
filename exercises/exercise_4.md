@@ -147,13 +147,27 @@ Simple command to generate model from ORF-annotated protein fasta file generated
 $ carve -v -o erectale.xml proteins.faa
 ```
 
-You may also download precomputed CarveMe models in [this repository](https://github.com/cdanielmachado/embl_gems), e.g.
+## 🏭 Download some pre-generated GEMs
+
+You may download precomputed CarveMe models of your choosing from [this repository](https://github.com/cdanielmachado/embl_gems).
+
+First create a folder and include the model we just created:
 
 ```bash
 $ mkdir -p embl_gems && cd embl_gems && mv ../erectale.xml .
+```
+
+Download 3 models, you may modify the code to include your favorite species. We first use `wget` to download the models and `mv` to remove strange filename extensions.
+
+```bash
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/escherichia/Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true && mv Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true Escherichia_coli_str_K_12_substr_MG1655.xml.gz
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz?raw=true && mv Eubacterium_rectale_ATCC_33656.xml.gz?raw=true Eubacterium_rectale_ATCC_33656.xml.gz
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz?raw=true && mv Bacteroides_caccae_ATCC_43185.xml.gz?raw=true Bacteroides_caccae_ATCC_43185.xml.gz
+```
+
+Use `gunzip` to unzip models:
+
+```bash
 $ gunzip *.gz
 ```
 
