@@ -50,6 +50,11 @@ Use `tail` to verify contents of prodigal output
 
 ```bash
 $ tail proteins.faa
+```
+<details>
+    <summary>Click to see proteins</summary>
+    
+```bash
 >NC_021010.1_3164 # 3343617 # 3344390 # 1 # ID=1_3164;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.386
 MSNAINVNYMTRAYNQYQQKNAAKDQEKEDTRFADSVREKSEASGSIVGNSKIGSVSAKD
 MTMVEYKQYIYNKISQIPMHPTRAGESISVTISEAGFEAMKNDPEYEAWVLNDLQVGWSQ
@@ -61,6 +66,9 @@ MGINGVSSYANTYTYGNVKNENVKPSKNSEKNYYAGYTMNSANKFKNVSDYSKYLTNKYK
 CLTPCKNASVLIDGSVMRKACGDEKTAKWLEENLAIMPDVIRNAQKAAISHGSKLISVEF
 KFTNNGTEMTTCGIFGETGTDSEIDKWLERMKEDKEKEDKKTENMIAIEATT
 ```
+    
+ </details>
+
 
 ## 🪚 Use CarveMe to generate GEMs for a bacterial community
 
@@ -68,7 +76,11 @@ Refer to the CarveMe [documentation](https://carveme.readthedocs.io/en/latest/ad
 
 ```bash
 $ carve -h
-
+```
+<details>
+    <summary>Click to see helpfile</summary>
+    
+```bash
 usage: carve [-h] [--dna | --egg | --refseq] [--diamond-args DIAMOND_ARGS]
              [-r] [-o OUTPUT] [-u UNIVERSE | --universe-file UNIVERSE_FILE]
              [--cobra | --fbc2] [-n ENSEMBLE] [-g GAPFILL] [-i INIT]
@@ -112,6 +124,9 @@ optional arguments:
   --reference REFERENCE
                         Manually curated model of a close reference species.
 ```
+    
+ </details>
+
 
 ### 🔐 Key points
 
@@ -135,11 +150,11 @@ $ carve -v -o erectale.xml proteins.faa
 You may also download precomputed CarveMe models in [this repository](https://github.com/cdanielmachado/embl_gems), e.g.
 
 ```bash
-$ mkdir -p embl_gems && cd embl_gems
+$ mkdir -p embl_gems && cd embl_gems && mv ../erectale.xml .
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/escherichia/Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true && mv Escherichia_coli_str_K_12_substr_MG1655.xml.gz?raw=true Escherichia_coli_str_K_12_substr_MG1655.xml.gz
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/e/eubacterium/Eubacterium_rectale_ATCC_33656.xml.gz?raw=true && mv Eubacterium_rectale_ATCC_33656.xml.gz?raw=true Eubacterium_rectale_ATCC_33656.xml.gz
 $ wget https://github.com/cdanielmachado/embl_gems/blob/master/models/b/bacteroides/Bacteroides_caccae_ATCC_43185.xml.gz?raw=true && mv Bacteroides_caccae_ATCC_43185.xml.gz?raw=true Bacteroides_caccae_ATCC_43185.xml.gz
-$ gunzip *
+$ gunzip *.gz
 ```
 
 ## ⚙️ Predicting interactions: from GEMs to metabolite exchanges
@@ -147,5 +162,13 @@ $ gunzip *
 Use SMETANA to predict interactions. To avoid specifying a media, we use the `--molweight` flag that first determines a minimal media that can support cross-feeding interactions, and then enumerates them.
 
 ```bash
-$ smetana -v -d --molweight -o embl_gems *.xml
+$ smetana -v -d --molweight -o embl_gems *.xml && paste embl_gems_detailed.tsv
 ```
+
+Use SMETANA global algorithm with the `--debug` flag to create a media composition where the community will grow and interact.
+
+```bash
+$ smetana -v -g --debug --molweight *.xml && paste debug.tsv
+```
+
+Alternatively, try simulating you community on some other [existing media composition](https://github.com/franciscozorrilla/metaGEM/blob/master/scripts/media_db.tsv).
