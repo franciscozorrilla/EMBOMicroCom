@@ -194,3 +194,5 @@ Over these metabolic modeling tutorials you have learned how to:
 * Generate genome-scale metabolic models from genome fasta files using CarveMe
 * Enumerate and evaluate relevant metabolic interactions between species using SMETANA
 * Model the influence of media composition on the predicted metabolic interactions between community members
+
+If you are interested in more metabolic modeling tutorials visit [SymbNET](https://github.com/franciscozorrilla/SymbNET): From Metagenomics to Metabolic Interactions.
