@@ -188,4 +188,9 @@ $ smetana -v -g --debug --molweight *.xml && paste debug.tsv
 Alternatively, try simulating you community on some other [existing media composition](https://github.com/franciscozorrilla/metaGEM/blob/master/scripts/media_db.tsv).
 
 
-## 💎 All done!
+## 💎 The end
+
+Over these metabolic modeling tutorials you have learned how to:
+* Generate genome-scale metabolic models from genome fasta files using CarveMe
+* Enumerate and evaluate relevant metabolic interactions between species using SMETANA
+* Model the influence of media composition on the predicted metabolic interactions between community members
