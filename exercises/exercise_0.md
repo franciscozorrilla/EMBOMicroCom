@@ -7,7 +7,7 @@ $ git clone https://github.com/franciscozorrilla/EMBOMicroCom.git
 ```
 Copy the code above after the `$` into your terminal window. 
 
-Note: if you use the built-in code-copy button, make sure you delete the `$` before entering the commands in your terminal.
+Note: if you use the built-in code-copy button make sure you delete the `$` before entering the commands in your terminal, otherwise you will get error messages.
 
 <details>
     <summary>Click to see expected output</summary>
