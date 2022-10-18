@@ -5,7 +5,7 @@
 
 * Predict metabolic interactions within microbial communities
 * Explore the effect of media composition on the predicted metabolite exchanges
-* Interpret predicted metabolic interactions and compare against experimentally verified exchanges
+* Interpret predicted metabolic interactions and evaluate against experimental data
 
 ## 📚Suggested Reading
 
