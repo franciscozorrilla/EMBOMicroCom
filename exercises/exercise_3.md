@@ -1,6 +1,10 @@
 # 🧫 3. Explore effect of interactions as a function of media composition
 
-We have already simulated the effect of switching carbon sources on the metabolic interactions. In this exercise we will further explore modifications to the media by tweaking components such as amino acids, vitamins, and ions.
+We have already simulated the effect of switching carbon sources on the metabolic interactions. In this exercise we will further explore modifications to the media by tweaking the amino acid supply in the environment.
+
+## 🥼 Run 3 additional computational experiments
+
+Run each simulation on your own machine as shown in the following code chunks.
 
 #### 🥦 Low amino acid environment with lactose as carbon source
 
