@@ -1,4 +1,4 @@
-# 🧪 4. (Bonus) Generate metabolic models and predict interactions using your own genomes
+# 🧪 4. Generate metabolic models and predict interactions using your own genomes (BONUS)
 
 By now you will know how to use CarveMe for reconstructing draft genome scale metabolic models, and SMETANA for predicting metabolite exchanges within microbial communities. 
 
