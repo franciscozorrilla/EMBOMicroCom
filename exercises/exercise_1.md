@@ -169,43 +169,8 @@ $ paste $ROOT/media.tsv
 <details>
     <summary>Click to see media file</summary>
   
-```bash
-medium	description	compound	name
-CDM35_lcts	CDM35_lcts	cl	cl
-CDM35_lcts	CDM35_lcts	thm	thm
-CDM35_lcts	CDM35_lcts	iodine	iodine
-CDM35_lcts	CDM35_lcts	arg__L	arg__L
-CDM35_lcts	CDM35_lcts	asn__L	asn__L
-CDM35_lcts	CDM35_lcts	ca2	ca2
-CDM35_lcts	CDM35_lcts	cobalt2	cobalt2
-CDM35_lcts	CDM35_lcts	cu2	cu2
-CDM35_lcts	CDM35_lcts	fe2	fe2
-CDM35_lcts	CDM35_lcts	fe3	fe3
-CDM35_lcts	CDM35_lcts	his__L	his__L
-CDM35_lcts	CDM35_lcts	ile__L	ile__L
-CDM35_lcts	CDM35_lcts	leu__L	leu__L
-CDM35_lcts	CDM35_lcts	met__L	met__L
-CDM35_lcts	CDM35_lcts	k	k
-CDM35_lcts	CDM35_lcts	mg2	mg2
-CDM35_lcts	CDM35_lcts	mn2	mn2
-CDM35_lcts	CDM35_lcts	pi	pi
-CDM35_lcts	CDM35_lcts	tyr__L	tyr__L
-CDM35_lcts	CDM35_lcts	val__L	val__L
-CDM35_lcts	CDM35_lcts	zn2	zn2
-CDM35_lcts	CDM35_lcts	so4	so4
-CDM35_lcts	CDM35_lcts	feenter	feenter
-CDM35_lcts	CDM35_lcts	lcts	lcts
-CDM35_lcts	CDM35_lcts	ala__L	ala__L
-CDM35_lcts	CDM35_lcts	asp__L	asp__L
-CDM35_lcts	CDM35_lcts	gly	gly
-CDM35_lcts	CDM35_lcts	o2	o2
-CDM35_lcts	CDM35_lcts	h2o	h2o
-CDM35_lcts	CDM35_lcts	orn	orn
-CDM35_lcts	CDM35_lcts	nh4	nh4
-CDM35_lcts	CDM35_lcts	co2	co2
-CDM35_lcts	CDM35_lcts	h	h
-...
-```
+https://github.com/franciscozorrilla/EMBOMicroCom/blob/3971c20ebac08381a8667868cc52ddbccb4fc077/media.tsv#L1-L172    
+    
 </details>
 
 
