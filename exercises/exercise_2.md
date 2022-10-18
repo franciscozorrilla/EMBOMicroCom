@@ -79,7 +79,7 @@ Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/conten
    - measures how strongly a receiver species relies on a donor species for a particular metabolite
    - SMETANA<sub>A,B,*m*</sub> = SCS<sub>A,B</sub> * MUS<sub>A,*m*</sub> * MPS<sub>B,*m*</sub>
 
-## 🥼 Running computational experiments
+## 🥼 Run 3 computational experiments
 
 Run each simulation on your own machine as shown in the following code chunks.
 
