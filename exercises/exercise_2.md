@@ -109,11 +109,11 @@ Let's have a look:
 
 https://github.com/franciscozorrilla/EMBOMicroCom/blob/905fb9fc674d2af731fc978079597f6027b15c1a/plot_interactions.R#L1-L23
 
-The script is hardcoded to read the CDM35 lactose SMETANA results file `CDM35_lcts_detailed.tsv` and plot to a file called `CDM35_lcts.pdf`. After generating prediction for each media condition, modify the script to read in and generate plots for each of the above experimental conditions.
+The script is hardcoded to read the CDM35 lactose SMETANA results file `CDM35_lcts_detailed.tsv` and plot to a file called `CDM35_lcts.pdf`. After generating prediction for each media condition, modify the script to read in and generate plots for each of the above experimental conditions. You may also have a look at some [precomputed results](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/precomputed_simulations.md) for comparison, or if you run into any trouble generating results of your own.
 
 ## 💎 Discussion questions
 * How does switching carbon source affect the metabolic interactions between yeast and bacteria?
 * To what extent do these predicted interactions reflect those experimentally verified in the case study publication?
-* Come up with some variation of CDM35 media by removing glucose/lactose/galactose and adding a new carbon source, e.g. trehalose, maltose, etc. Then enumerate interactions with SMETANA in that media and compare the interactions to the simulations above. How do the interactions look? Was there something unexpected?
+* Come up with some variation of CDM35 media by removing glucose/lactose/galactose and adding a new carbon source, e.g. trehalose, maltose, etc. Then enumerate interactions with SMETANA in that media, plot, and compare the interactions to the simulations above. How do the interactions look? Was there something unexpected?
 
 ## Move on to [exercise 3](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
