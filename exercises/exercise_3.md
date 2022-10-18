@@ -2,7 +2,7 @@
 
 We have already simulated the effect of switching carbon sources on the metabolic interactions. In this exercise we will further explore modifications to the media by tweaking components such as amino acids, vitamins, and ions.
 
-## 🥦 Low amino acid environment with lactose as carbon source
+#### 🥦 Low amino acid environment with lactose as carbon source
 
 First, let's see what would happen in a low amino acid environment. We have already created a modified CDM35 with lactose as a carbon source and without all amino acids except for Valine. Note that ornithine and nh4 are also present as nitrogen sources.
 
@@ -11,7 +11,7 @@ First, let's see what would happen in a low amino acid environment. We have alre
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_lcts -o $ROOT/CDM35_low_AA_lcts $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_lcts_detailed.tsv
 ```
   
-## 🍅 Low amino acid environment with glucose as carbon source
+#### 🍅 Low amino acid environment with glucose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with glucose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
@@ -19,7 +19,7 @@ Now let's see what would happen in a low amino acid environment (only valine) wi
 $ smetana -v -d --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_low_AA_glc -o $ROOT/CDM35_low_AA_glc $ROOT/models/*.xml && paste $ROOT/CDM35_low_AA_glc_detailed.tsv
 ```
   
-## 🍆 Low amino acid environment with galactose as carbon source
+#### 🍆 Low amino acid environment with galactose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with galactose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
