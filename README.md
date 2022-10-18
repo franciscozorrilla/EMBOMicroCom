@@ -28,7 +28,7 @@
 1. [Inspect metabolic models and media file](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_1.md)
 2. [Simulate community interactions between bacteria and yeast](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_2.md)
 3. [Explore effect of interactions as a function of media composition](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_3.md)
-4. [ (Bonus) Generate metabolic models and predict interactions using your own genomes](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
+4. [Generate metabolic models and predict interactions using your own genomes (BONUS)](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/exercise_4.md)
 
 
 ## 🏄 Metabolic Modeling Repos
