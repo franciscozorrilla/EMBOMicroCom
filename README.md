@@ -20,6 +20,7 @@
 * `models/yeast.xml`: Manually refined *Saccharomyces cerevisiae* genome scale metabolic model
 * `media.tsv`: Media composition file used for simulation under differing environments
 * `bigg_classes.tsv`: BiGG metabolite ID dictionary and metadata
+* `plot_interactions.R`: Rscript for generating alluvial diagrams based on SMETANA output
 
 ## 🎯 Exercises
 
