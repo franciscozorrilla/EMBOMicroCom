@@ -1,5 +1,7 @@
 # 🏁 0. Start by cloning this repo
 
+First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. 
+
 Use the `git` command to download repo contents to your virtual machine. 
 
 ```bash
