@@ -108,7 +108,7 @@ Alluvial diagrams, AKA sankey or flow diagrams, are a quick and easy way to visu
 <details>
     <summary>Click to see Rscript</summary>
 
-https://github.com/franciscozorrilla/EMBOMicroCom/blob/905fb9fc674d2af731fc978079597f6027b15c1a/plot_interactions.R#L1-L23
+https://github.com/franciscozorrilla/EMBOMicroCom/blob/e6ae5ebea9feec8a92c6c861ccbda534c8858dda/plot_interactions.R#L1-L23
 
   </details>
 
