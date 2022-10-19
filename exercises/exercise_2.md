@@ -83,19 +83,19 @@ Refer to the [methods sections of the SMETANA paper](https://www.pnas.org/conten
 
 Run each simulation on your own machine as shown in the following code chunks.
 
-# 🐄 CDM35 with lactose as main carbon source
+## 🐄 CDM35 with lactose as main carbon source
 
 ```bash
 $ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_lcts -o $ROOT/CDM35_lcts $ROOT/models/*.xml && paste $ROOT/CDM35_lcts_detailed.tsv 
 ```
   
-# 🍬 CDM35 with glucose as main carbon source
+## 🍬 CDM35 with glucose as main carbon source
 
 ```bash
 $ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_glc -o $ROOT/CDM35_glc $ROOT/models/*.xml && paste $ROOT/CDM35_glc_detailed.tsv 
 ```
 
-# 🌌 CDM35 with galactose as main carbon source
+## 🌌 CDM35 with galactose as main carbon source
 
 ```bash
 $ smetana -d -v --flavor cobra --mediadb $ROOT/media.tsv -m CDM35_gal -o $ROOT/CDM35_gal $ROOT/models/*.xml && paste $ROOT/CDM35_gal_detailed.tsv 
