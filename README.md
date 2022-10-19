@@ -49,3 +49,8 @@
  - [DesignMC](https://github.com/cdanielmachado/designmc): Design microbial communities for production of specific target compounds using GEMs 
  - [HiOrCo](https://github.com/cdanielmachado/HiOrCo): Compute higher order cooccurence using abundance across samples
  - [Reframed](https://github.com/cdanielmachado/reframed): Metabolic modeling package
+
+## 🥼 Contributors
+
+ - Francisco Zorrilla, MRC Toxicology Unit - University of Cambridge
+ - Kiran R. Patil, MRC Toxicology Unit - University of Cambridge
