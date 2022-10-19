@@ -1,3 +1,17 @@
+# 💲 Running the code
+
+In the following `.md` files, the dollar sign symbol within code chunks denotes lines of code that you should run in your terminal window, e.g.
+```bash
+$ echo "down here you can see the expected output of your commands"
+```
+<details>
+    <summary>Click to see expected output</summary>
+
+```bash
+down here you can see the expected output of your commands
+```
+ </details>
+
 # 🏁 0. Start by cloning this repo
 
 First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. Next, use the `cd` command to change directory into your local desktop. Do not include the `$` when you copy code into your terminal, this symbol is used to indicate commands you should run on your own terminal.
@@ -33,21 +47,6 @@ Resolving deltas: 100% (11/11), done.
 ```bash
 $: command not found
 ```
-
-## 💲 Running the code
-
-In the following `.md` files, the dollar sign symbol within code chunks denotes lines of code that you should run in your terminal window, e.g.
-```bash
-$ echo "down here you can see the expected output of your commands"
-```
-<details>
-    <summary>Click to see expected output</summary>
-
-```bash
-down here you can see the expected output of your commands
-```
- </details>
-
 
 Move into repo folder using `cd`
 ```bash
