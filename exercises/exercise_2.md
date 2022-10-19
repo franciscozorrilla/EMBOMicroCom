@@ -112,7 +112,7 @@ https://github.com/franciscozorrilla/EMBOMicroCom/blob/905fb9fc674d2af731fc97807
 
   </details>
 
-To start plotting your own data, open Rstudio and navigate to your `$ROOT` folder in the bottom right file explorer. Click on the little gear button labeled `More` and set your current folder as the working directory. Then click on the `plot_interactions.R` script, which should bring up the code. Now you may run the script with the default parameters to generate an alluvial diagram.
+To start plotting your own data, first open Rstudio by clicking on the bottom left icon and searching for Rstudio. Then click to navigate to your `$ROOT` folder in the bottom right file explorer. Click on the little gear button labeled `More` and set your current folder as the working directory. Then click on the `plot_interactions.R` script, which should bring up the code shown above. Now you may run the script with the default parameters to generate an alluvial diagram.
     
 The script is hardcoded to read the CDM35 lactose SMETANA results file `CDM35_lcts_detailed.tsv` and plot to a file called `CDM35_lcts.pdf`. After generating prediction for each media condition, modify these parameters to read in and generate plots for each of the above experimental conditions. You may also have a look at some [precomputed results](https://github.com/franciscozorrilla/EMBOMicroCom/blob/main/exercises/precomputed_simulations.md) for comparison, or if you run into any trouble generating results of your own.
 
