@@ -10,7 +10,7 @@ While genome-scale metabolic models may appear complicated and mysterious at fir
 
 The models we are using have been borrowed from the [materials of a manuscript-in-preparation](https://github.com/ChMaga/13C-proteomics). Both models were reconstructed using CarveMe and manually curated to study the *S. cerevisiae* <-> *L. lactis* metabolic interactions.
 
-## 🍺 Yeast model
+# 🍺 Yeast model
 
 Use `less` to view and scroll through the contents of the yeast model.
 
@@ -82,7 +82,7 @@ $ less $ROOT/models/yeast.xml
 
 Press the `q` key to stop viewing the file.
 
-## 🦠 Bacterial model
+# 🦠 Bacterial model
     
 Use `less` to view and scroll through the contents of the bacterial model.
 
@@ -155,11 +155,11 @@ $ less $ROOT/models/bacteria.xml
 
 Press the `q` key to stop viewing the file.
 
-## 🗺️ Explore the models visually
+# 🗺️ Explore the models visually
 
 While this can be informative for some quick inspection, we may also visualize these metabolic models using web-based tools such as [fluxer](https://fluxer.umbc.edu/). Upload the bacteria and/or yeast model and have a look around!
 
-## 🥫 Inspect the media composition
+# 🥫 Inspect the media composition
 
 Use `paste` to view the contents of the `media.tsv` file
 
@@ -178,7 +178,7 @@ Search the [BiGG database](http://bigg.ucsd.edu/) to learn more about specific m
 
 If you are feeling adventurous, come up with your own media composition/variation for simulation to be used in the following exercise! 
 
-## 💎 Discussion questions
+# 💎 Discussion questions
 
 * What are GEMs and how can they be used? What is FBA? What is SBML?
 * How many reactions and metabolites are present in the yeast model? What about the bacterial model?
