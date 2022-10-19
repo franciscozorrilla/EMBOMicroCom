@@ -1,6 +1,10 @@
 # 🏁 0. Start by cloning this repo
 
-First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. 
+First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. Next, use the `cd` command to change directory into your local desktop.
+
+```bash
+$ cd ~/Desktop
+```
 
 Use the `git` command to download repo contents to your virtual machine. 
 
@@ -68,7 +72,7 @@ $ ls $ROOT
     <summary>Click to see expected output</summary>
 
 ```bash
-exercises  LICENSE  media.tsv  models  README.md
+LICENSE			README.md		bigg_classes.tsv	exercises		media.tsv		models			plot_interactions.R
 ```
  </details>
 
