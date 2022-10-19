@@ -1,6 +1,6 @@
 # 🕸️ 2. Simulate community interactions between bacteria and yeast
 
-Refer to the SMETANA [documentation](https://smetana.readthedocs.io/en/latest/usage.html#) for more details regarding usage.
+We will now use flux balance analysis based methods to enumerate feasible interactions between metabolic networks representing community members. Refer to the SMETANA [documentation](https://smetana.readthedocs.io/en/latest/usage.html#) for more details regarding usage.
 
 ```bash
 $ smetana -h
