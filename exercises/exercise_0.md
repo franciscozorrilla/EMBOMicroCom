@@ -1,6 +1,6 @@
 # 🏁 0. Start by cloning this repo
 
-First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. Next, use the `cd` command to change directory into your local desktop.
+First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. Next, use the `cd` command to change directory into your local desktop. Do not include the `$` when you copy code into your terminal, this symbol is used to indicate commands you should run on your own terminal.
 
 ```bash
 $ cd ~/Desktop
