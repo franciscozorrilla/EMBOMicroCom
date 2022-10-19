@@ -46,7 +46,7 @@ Resolving deltas: 100% (11/11), done.
 
   </details>
 
-🛑 *Note*: if you use the built-in code-copy button make sure you delete the `$` before entering the commands in your terminal, otherwise you will get an error message such as 
+🛑 *Note:* if you use the built-in code-copy button make sure you delete the `$` before entering the commands in your terminal, otherwise you will get an error message such as 
 
 ```bash
 $: command not found
@@ -74,6 +74,7 @@ List contents of cloned repo using `ls`
 ```bash
 $ ls $ROOT
 ```
+    
 <details>
     <summary>Click to see expected output</summary>
 
@@ -82,6 +83,21 @@ LICENSE			README.md		bigg_classes.tsv	exercises		media.tsv		models			plot_intera
 ```
  </details>
   
+  
+Verify the path in your `$ROOT` variable using `echo`
+
+```bash
+$ echo $ROOT
+```
+
+<details>
+    <summary>Click to see example output</summary>
+
+```bash
+/home/training50/Desktop/EMBOMicroCom
+```
+
+  </details>  
 
 # 🥛 Yeast - Lactic Acid Bacteria interactions
 
