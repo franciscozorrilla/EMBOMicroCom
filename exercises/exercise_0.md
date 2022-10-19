@@ -42,13 +42,16 @@ Resolving deltas: 100% (11/11), done.
 
   </details>
 
-*Note*: if you use the built-in code-copy button make sure you delete the `$` before entering the commands in your terminal, otherwise you will get an error message such as 
+🛑 *Note*: if you use the built-in code-copy button make sure you delete the `$` before entering the commands in your terminal, otherwise you will get an error message such as 
 
 ```bash
 $: command not found
 ```
 
-Move into repo folder using `cd`
+## ⚙️ Configure `$ROOT` variable
+
+It will be useful to write our working directory to a variable, so we can make sure to be reading and writing files in the correct location. First, move into repo folder using `cd`.
+
 ```bash
 $ cd EMBOMicroCom
 ```
@@ -74,7 +77,6 @@ $ ls $ROOT
 LICENSE			README.md		bigg_classes.tsv	exercises		media.tsv		models			plot_interactions.R
 ```
  </details>
-
   
 
 # 🥛 Yeast - Lactic Acid Bacteria interactions
