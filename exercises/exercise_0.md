@@ -52,7 +52,7 @@ Resolving deltas: 100% (11/11), done.
 $: command not found
 ```
 
-## ⚙️ Configure `$ROOT` variable
+# ⚙️ Configure `$ROOT` variable
 
 It will be useful to write our working directory to a variable, so we can make sure to be reading and writing files in the correct location. First, move into repo folder using `cd`.
 
@@ -113,7 +113,7 @@ Fig.1 - Graphical abstract from Ponomarova et al. 2017
 
 In the following exercises, we will use a simple two-species system described in the above publication to model metabolic interactions. In particular, we will focus on the interactions between *L. lactis* and *S. cerevisiae*
 
-## 💎 Discussion questions
+# 💎 Discussion questions
 
 * Do you expect cross-feeding of metabolites between *S. cerevisiae* and *L. lactis*? If so, what metabolites?
 * How do environmental media conditions influence metabolic interactions? Do you expect more or less interactions in rich vs minimal media?
