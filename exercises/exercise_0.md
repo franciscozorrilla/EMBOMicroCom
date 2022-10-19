@@ -1,3 +1,7 @@
+# 🏁 0. Start by cloning this repo
+
+In this notebook we will demonstrate how to set up the contents of this repo on your virtual machine, enabling us to predict interactions between microbial community members in the following markdown files.
+
 # 💲 Running the code
 
 In the following `.md` files, the dollar sign symbol within code chunks denotes lines of code that you should run in your terminal window, e.g.
@@ -12,7 +16,7 @@ down here you can see the expected output of your commands
 ```
  </details>
 
-# 🏁 0. Start by cloning this repo
+# 🌀 Clone this repo
 
 First open the terminal on your virtual machine. Click on the icon at the bottom left of the dekstop to show applications, then search for the terminal. Next, use the `cd` command to change directory into your local desktop. Do not include the `$` when you copy code into your terminal, this symbol is used to indicate commands you should run on your own terminal.
 
