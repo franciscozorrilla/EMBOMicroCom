@@ -1,3 +1,6 @@
+# install ggalluvial if missing
+install.packages("ggalluvial")
+
 # load libraries
 library(tidyverse)
 library(ggalluvial)
