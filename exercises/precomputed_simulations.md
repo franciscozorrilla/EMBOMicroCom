@@ -3,6 +3,8 @@
 As the title suggests, these are example of what the SMETANA output may look like.
 Differences between your own results and these scores are likely due to solver instability and the existence of multiple alternative solutions.
 
+## 🧪 CDM35 with varying carbon source
+
 ### 🐄 CDM35 with lactose as main carbon source
 
 ```bash
@@ -120,7 +122,9 @@ Fig.4 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with 
  </details>
  
 
-## 🥦 Low amino acid environment with lactose as carbon source
+## 🍽️ CDM35 minus amino acids
+
+### 🥦 Low amino acid environment with lactose as carbon source
 
 First, let's see what would happen in a low amino acid environment. We have already created a modified CDM35 with lactose as a carbon source and without all amino acids except for Valine. Note that ornithine and nh4 are also present as nitrogen sources.
 
@@ -175,7 +179,7 @@ Fig.5 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with 
  </details>
 
   
-## 🍅 Low amino acid environment with glucose as carbon source
+### 🍅 Low amino acid environment with glucose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with glucose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
@@ -234,7 +238,7 @@ Fig.6 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with 
  </details>
 
   
-## 🍆 Low amino acid environment with galactose as carbon source
+### 🍆 Low amino acid environment with galactose as carbon source
 
 Now let's see what would happen in a low amino acid environment (only valine) with galactose as a carbon source. Note that ornithine and nh4 are also present as nitrogen sources.
 
