@@ -36,7 +36,7 @@
 ### Resources
 
  - [SymbNET](https://github.com/franciscozorrilla/SymbNET): From Metagenomics to Metabolic Interactions tutorial
- - [Daniel Machado's EMBOMicroCom tutorials](https://github.com/cdanielmachado/embo_mcd22): Complementary exercises
+ - [EMBOMicroCom tutorials](https://github.com/cdanielmachado/embo_mcd22): Daniel Machado's complementary exercises
  - [metaGEM_paper](https://github.com/franciscozorrilla/metaGEM_paper): metaGEM paper results
  - [metaGEM_unseenbio](https://github.com/franciscozorrilla/unseenbio_metaGEM): metaGEM analysis of unseen bio at-home-test WGS sequencing data
  - [Cooccurrence paper](https://github.com/cdanielmachado/cooccurrence): Supplement repo to cooccurrence paper
