@@ -3,7 +3,7 @@
 As the title suggests, these are example of what the SMETANA output may look like.
 Differences between your own results and these scores are likely due to solver instability and the existence of multiple alternative solutions.
 
-## 🧪 CDM35 with varying carbon source
+## 🧪 Exercise 2: CDM35 with varying carbon source
 
 ### 🐄 CDM35 with lactose as main carbon source
 
@@ -122,7 +122,7 @@ Fig.4 - Alluvial diagram of SMETANA scores >= 0.2 predicted in CDM35 media with 
  </details>
  
 
-## 🍽️ CDM35 minus amino acids
+## 🍽️ Exercise 3: CDM35 minus amino acids
 
 ### 🥦 Low amino acid environment with lactose as carbon source
 
