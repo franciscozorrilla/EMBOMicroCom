@@ -1,6 +1,5 @@
-[![DOI](https://zenodo.org/badge/550822801.svg)](https://zenodo.org/badge/latestdoi/550822801)
-
 # 🔬 [EMBOMicroCom](https://www.embl.org/about/info/course-and-conference-office/events/mcd22-01/): Metabolite and species dynamics in microbial communities 🧬
+[![DOI](https://zenodo.org/badge/550822801.svg)](https://zenodo.org/badge/latestdoi/550822801)
 # 💻 Metabolic modeling tutorial (Day 5)
 
 ## 💰 Learning Outcomes
